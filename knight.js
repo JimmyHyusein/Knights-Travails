@@ -1,34 +1,3 @@
-// function knightMoves(x,y){
-//     let moves = [
-//     [2, 1], [2, -1], [-2, 1], [-2, -1],
-//     [1, 2], [1, -2], [-1, 2], [-1, -2]
-//   ];
-
-//   let validMoves = []
-//   for(let [dx, dy] of moves){
-//     let newX = x + dx;
-//     let newY = y + dy;
-//     if(newX <= 7 && newX >= 0 && newY <= 7 && newY >= 0)
-//         validMoves.push([newX, newY]);
-        
-   
-//   }
-//    console.log(validMoves);
-    
-// }
-
-// let queue = [];
-// queue.push("A");
-// queue.push("B");
-// queue.push("C");
-
-// while (queue.length > 0) {
-   
-  
-//   console.log(queue);
-//   let current = queue.shift();
-// }
-
 
 
 
@@ -76,9 +45,3 @@ function knightMoves(start, end){
     
 }
 console.log(knightMoves([0,0],[7,7]));
-
-let news = [0, 1];
-let move = [1];
-let a   = []
-a.push(...news,move);
-console.log(a);
